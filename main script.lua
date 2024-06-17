@@ -46,7 +46,7 @@ Section:NewLabel("LabelText")
 
 -- Кнопка
 Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+    print("Нажатие!")
 end)
 
 -- Переключатель
