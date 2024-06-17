@@ -1,4 +1,4 @@
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/White-List/main/DataBase", true))()
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Redy3824723/bss-script/main/white%20list.lua", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
   print("Добро пожаловать в скрипт для Bee Swarm Simulator!\nDeveloper: Redy (Discord: redy06)")
