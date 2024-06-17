@@ -49,6 +49,8 @@ Section:NewLabel("LabelText")
 -- Кнопка
 Section:NewButton("ButtonText", "ButtonInfo", function()
     print("Нажатие!")
+    print(whitelist)
+    print(game:service('Players').LocalPlayer.UserId)
 end)
 
 -- Переключатель
