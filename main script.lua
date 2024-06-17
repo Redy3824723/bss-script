@@ -1,3 +1,10 @@
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/White-List/main/DataBase", true))()
+
+if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+  print("Добро пожаловать в скрипт для Bee Swarm Simulator!\nDeveloper: Redy (Discord: redy06)")
+else
+  game:service('Players').LocalPlayer:Kick('У вас нет доступа!\nПолучить доступ можно у разрабочика.\nDS: redy06')
+end
 -- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 --[[
